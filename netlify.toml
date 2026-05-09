@@ -1,9 +1,6 @@
 # The Millers Market — Netlify configuration
 # This deploys as a plain static site (no build step needed).
 
-[build]
-  publish = "."
-
 [[headers]]
   for = "/*"
   [headers.values]
